@@ -1,0 +1,14 @@
+tensorflow
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+nibabel
+nilearn
+opencv-python
+joblib
+requests
+protobuf<3.20
+streamlit==1.11.1
+Pillow

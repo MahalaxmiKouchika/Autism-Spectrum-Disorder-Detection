@@ -1,0 +1,33 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Large medical imaging data
+data/raw/
+*.nii
+*.nii.gz
+
+# Processed datasets
+data/processed/
+
+# Model files
+models/*.h5
+models/*.keras
+models/*.pt
+models/*.pth
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
