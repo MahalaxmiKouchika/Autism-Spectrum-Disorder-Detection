@@ -30,13 +30,6 @@
 
 ---
 
-## 🖥️ Application Preview
-
-<p align="center">
-  <img src="assets/asd-detection.png" alt="Autism Spectrum Disorder Detection Application" width="900">
-</p>
-
----
 
 ## 🩺 Project Overview
 
@@ -520,8 +513,7 @@ It should not replace professional medical evaluation or consultation with a qua
 
 ### **Mahalaxmi Kouchika**
 
-**Computer Science Engineering | Machine Learning | MLOps | DevOps**
-
+**Machine Learning & Deep Learning Enthusiast | MLOps Practitioner | Aspiring AI Engineer**
 ## ⭐ Support
 
 If you find this project useful, please ⭐ **star the repository** and share your feedback.
