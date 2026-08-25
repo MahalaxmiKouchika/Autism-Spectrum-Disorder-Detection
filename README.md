@@ -2,445 +2,265 @@
 
 <p align="center">
 
-![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
-![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NiBabel](https://img.shields.io/badge/NiBabel-Neuroimaging-4B8BBE?style=for-the-badge)
-![Nilearn](https://img.shields.io/badge/Nilearn-Neuroimaging-3776AB?style=for-the-badge)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+[![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-Deep%20Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
+[![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)](https://scikit-learn.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![OpenCV](https://img.shields.io/badge/OpenCV-Image%20Processing-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org/)
+[![NiBabel](https://img.shields.io/badge/NiBabel-Neuroimaging-4B8BBE?style=for-the-badge)](https://nipy.org/nibabel/)
+[![Nilearn](https://img.shields.io/badge/Nilearn-Neuroimaging-3776AB?style=for-the-badge)](https://nilearn.github.io/)
+[![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
 
 </p>
 
-<p align="center">
-<b>Deep Learning + Machine Learning based Neuroimaging Classification System</b>
-</p>
+**Deep Learning and Machine Learning-powered healthcare research application** for detecting Autism Spectrum Disorder (ASD) from neuroimaging data. The system uses a **Squeeze-and-Excitation Convolutional Neural Network (SE-CNN)** for deep feature extraction and Machine Learning classifiers for ASD classification.
 
 ---
 
-# 🧠 Project Overview
+## 🧠 Project Overview
 
-**Autism Spectrum Disorder Detection System** is a **Deep Learning and Machine Learning based healthcare research project** designed to classify neuroimaging data into:
+Autism Spectrum Disorder (ASD) is a neurodevelopmental condition that can affect communication, behavior, and social interaction.
 
-- **ASD — Autism Spectrum Disorder**
-- **CONTROL — Non-ASD Control**
+This project explores the use of **Artificial Intelligence, Deep Learning, and Neuroimaging** to classify brain imaging data into:
 
-The system uses a **Squeeze-and-Excitation Convolutional Neural Network (SE-CNN)** to learn meaningful features from neuroimaging data.
+- **ASD**
+- **CONTROL**
 
-The extracted features are then given to Machine Learning classifiers including:
+The system follows a hybrid approach where an **SE-CNN extracts meaningful image features**, and Machine Learning classifiers use those features for classification.
 
-- Random Forest
-- Logistic Regression
-- K-Nearest Neighbors (KNN)
+The project also provides a **Streamlit web application** for interactive prediction.
 
-A **Streamlit web application** is also provided for interactive prediction.
+### Key Features
 
----
-
-# ✨ Key Features
-
-- 🧠 Squeeze-and-Excitation CNN for deep feature extraction
+- 🧠 Squeeze-and-Excitation CNN
 - 🔬 Neuroimaging data preprocessing
-- 📊 Image preprocessing and normalization
-- 🧩 Attention-based feature learning
-- 📌 128-dimensional CNN feature extraction
-- 🌲 Random Forest classification
-- 📈 Logistic Regression classification
-- 🔎 KNN classification
-- 📊 Model performance evaluation
-- 🌐 Interactive Streamlit web application
-- 💾 Trained model saving and loading
-- 🧪 ASD vs CONTROL classification
-- 📋 Prediction result and confidence display
+- 📊 Deep feature extraction
+- 🤖 Random Forest classification
+- 📈 Logistic Regression and KNN comparison
+- 🌐 Streamlit web application
+- 📋 Model evaluation and performance metrics
+- 💾 Saved models for prediction
 
 ---
 
-# 🛠️ Tools & Technologies
-
-## 💻 Technology Stack
-
-| Category | Technologies |
-|---|---|
-| **Programming Language** | Python |
-| **Deep Learning** | TensorFlow, Keras |
-| **CNN Architecture** | Squeeze-and-Excitation CNN (SE-CNN) |
-| **Machine Learning** | Scikit-learn |
-| **ML Classifiers** | Random Forest, Logistic Regression, KNN |
-| **Neuroimaging** | NiBabel, Nilearn |
-| **Image Processing** | OpenCV, Pillow |
-| **Data Processing** | NumPy, Pandas |
-| **Data Visualization** | Matplotlib, Seaborn |
-| **Model Persistence** | Joblib |
-| **Web Application** | Streamlit |
-| **Dataset** | ABIDE |
-| **Version Control** | Git, GitHub |
-
-### Major Technologies
-
-**Python**  
-Used as the primary programming language for data processing, Deep Learning, Machine Learning, and application development.
-
-**TensorFlow / Keras**  
-Used to build and train the SE-CNN model.
-
-**Scikit-learn**  
-Used for Machine Learning classifiers and model evaluation.
-
-**NiBabel / Nilearn**  
-Used for loading and processing neuroimaging data.
-
-**OpenCV / Pillow**  
-Used for image processing and preparation.
-
-**NumPy / Pandas**  
-Used for numerical operations and dataset management.
-
-**Matplotlib / Seaborn**  
-Used for visualization and model evaluation.
-
-**Joblib**  
-Used for saving and loading Machine Learning models.
-
-**Streamlit**  
-Used to create the interactive web application.
-
-**Git / GitHub**  
-Used for source-code management and project version control.
-
----
-
-# 📊 Dataset
-
-The project uses neuroimaging data from the:
-
-**Autism Brain Imaging Data Exchange (ABIDE)**
-
-The dataset contains samples belonging to two major classes:
-
-| Label | Description |
-|---|---|
-| `ASD` | Autism Spectrum Disorder |
-| `CONTROL` | Control / Non-ASD |
-
-The project works with neuroimaging files such as:
+## 🏗️ System Architecture
 
 ```text
+                  Neuroimaging Data
+                         │
+                         ▼
+                Data Preprocessing
+                         │
+                         ▼
+                  Image Processing
+                         │
+                         ▼
+                     SE-CNN
+              (Squeeze-and-Excitation)
+                         │
+                         ▼
+                Feature Extraction
+                  128-D Feature
+                     Vector
+                         │
+                         ▼
+              Machine Learning Models
+                         │
+              ┌──────────┼──────────┐
+              ▼          ▼          ▼
+        Random Forest    KNN    Logistic Regression
+              │
+              ▼
+        ASD / CONTROL
+              │
+              ▼
+        Prediction Result
+              │
+              ▼
+       Streamlit Web App
+🛠️ Tech Stack
+Category	Technology
+Programming Language	Python
+Deep Learning	TensorFlow / Keras
+CNN Architecture	Squeeze-and-Excitation CNN
+Machine Learning	Scikit-learn
+Classifiers	Random Forest, Logistic Regression, KNN
+Neuroimaging	NiBabel, Nilearn
+Image Processing	OpenCV, Pillow
+Data Processing	NumPy, Pandas
+Visualization	Matplotlib, Seaborn
+Model Persistence	Joblib
+Web Application	Streamlit
+Version Control	Git / GitHub
+📊 Dataset
+
+The project uses neuroimaging data from the Autism Brain Imaging Data Exchange (ABIDE).
+
+The data is classified into two categories:
+
+Label	Description
+ASD	Autism Spectrum Disorder
+CONTROL	Control / Non-ASD
+
+The project processes neuroimaging files such as:
+
 .nii
 .nii.gz
 
-The raw neuroimaging files are processed before being used by the Deep Learning model.
+The preprocessing pipeline reads the neuroimaging data and converts it into normalized numerical data suitable for model training.
 
-🏗️ System Architecture
-                    ABIDE Neuroimaging Data
-                              │
-                              ▼
-                       Data Preparation
-                              │
-                              ▼
-                  Neuroimaging Preprocessing
-                              │
-                              ▼
-                       Image Processing
-                              │
-                              ▼
-                            SE-CNN
-                 Squeeze-and-Excitation CNN
-                              │
-                              ▼
-                     Feature Extraction
-                        128-D Vector
-                              │
-                              ▼
-                  Machine Learning Models
-                              │
-                ┌─────────────┼─────────────┐
-                ▼             ▼             ▼
-          Random Forest       KNN      Logistic Regression
-                │
-                ▼
-           ASD / CONTROL
-                │
-                ▼
-          Streamlit Web App
-                │
-                ▼
-        Prediction & Confidence
 ⚙️ Machine Learning Pipeline
-1. Data Collection
+1. Data Preparation
 
-The project uses the ABIDE neuroimaging dataset.
+The dataset metadata is loaded and subjects are organized according to their labels.
 
 ABIDE Dataset
-      │
-      ▼
+      ↓
 Metadata
-      │
-      ▼
-Subject Information
-      │
-      ▼
-ASD / CONTROL Labels
-2. Data Preparation
-
-The dataset metadata and neuroimaging files are organized according to their corresponding labels.
-
-Dataset
-   │
-   ▼
-Load Metadata
-   │
-   ▼
-Select Subjects
-   │
-   ▼
-Assign Labels
-   │
-   ▼
+      ↓
 ASD / CONTROL
-3. Neuroimaging Preprocessing
+      ↓
+Selected Subjects
+2. Neuroimaging Preprocessing
 
-Neuroimaging files are loaded using NiBabel.
+The raw NIfTI files are loaded using NiBabel.
 
-The preprocessing pipeline performs:
+The data is:
 
-Loading .nii / .nii.gz files
-Converting imaging data into numerical arrays
-Handling invalid and NaN values
-Normalizing image data
-Preparing processed data for model training
-.nii / .nii.gz
-       │
-       ▼
-     NiBabel
-       │
-       ▼
- Numerical Array
-       │
-       ▼
- Data Cleaning
-       │
-       ▼
- Normalization
-       │
-       ▼
- Processed Data
-🖼️ Image Preprocessing
-
-The input images are prepared before being passed to the CNN.
-
-The preprocessing includes:
-
-Grayscale conversion
-Image resizing
+Loaded from .nii.gz
+Converted into numerical arrays
+NaN values handled
+Normalized using mean and standard deviation
+Saved as .npy files
+.nii.gz
+   ↓
+NiBabel
+   ↓
+Numerical Data
+   ↓
+NaN Handling
+   ↓
 Normalization
-Conversion into CNN-compatible arrays
+   ↓
+.npy
+3. Image Preprocessing
 
-The CNN input size is:
+For the CNN prototype, images are:
 
-128 × 128 × 1
-Image Processing Pipeline
+Converted to grayscale
+Resized to 128 × 128
+Normalized to the range [0, 1]
 Input Image
-     │
-     ▼
-Grayscale Conversion
-     │
-     ▼
-Resize to 128 × 128
-     │
-     ▼
+     ↓
+Grayscale
+     ↓
+128 × 128
+     ↓
 Normalization
-     │
-     ▼
+     ↓
 CNN Input
-🧠 SE-CNN Architecture
+4. SE-CNN Feature Extraction
 
-The project uses a Squeeze-and-Excitation Convolutional Neural Network (SE-CNN).
+The project uses a Squeeze-and-Excitation CNN.
 
-The SE block introduces an attention mechanism that allows the network to learn the importance of different feature channels.
+The architecture contains convolutional blocks followed by an SE attention block.
 
-CNN Architecture
-Input Image
-     │
-     ▼
+Input
+  ↓
 Conv2D - 32 Filters
-     │
-     ▼
+  ↓
 Batch Normalization
-     │
-     ▼
-ReLU Activation
-     │
-     ▼
+  ↓
+ReLU
+  ↓
 Max Pooling
-     │
-     ▼
+  ↓
 Conv2D - 64 Filters
-     │
-     ▼
+  ↓
 Batch Normalization
-     │
-     ▼
-ReLU Activation
-     │
-     ▼
+  ↓
+ReLU
+  ↓
 Max Pooling
-     │
-     ▼
+  ↓
 SE Attention Block
-     │
-     ▼
+  ↓
 Conv2D - 128 Filters
-     │
-     ▼
+  ↓
 Batch Normalization
-     │
-     ▼
-ReLU Activation
-     │
-     ▼
+  ↓
+ReLU
+  ↓
 Max Pooling
-     │
-     ▼
+  ↓
 Global Average Pooling
-     │
-     ▼
+  ↓
 128-D Feature Vector
-🎯 Squeeze-and-Excitation Attention
+5. Machine Learning Classification
 
-The SE block helps the CNN focus on important feature channels.
+The extracted CNN features are used by multiple Machine Learning classifiers.
 
-Feature Maps
-     │
-     ▼
-Global Average Pooling
-     │
-     ▼
-Channel Information
-     │
-     ▼
-Fully Connected Layers
-     │
-     ▼
-Channel Weights
-     │
-     ▼
-Feature Recalibration
-
-This allows the network to assign greater importance to useful features while reducing the influence of less important features.
-
-🔍 Feature Extraction
-
-After the SE-CNN is trained, it is used as a feature extractor.
-
-Each processed image is converted into a:
-
-128-Dimensional Feature Vector
-Feature Extraction Workflow
-Input Image
-     │
-     ▼
 SE-CNN
-     │
-     ▼
-Deep Feature Extraction
-     │
-     ▼
+   ↓
 128-D Feature Vector
+   ↓
+┌─────────────────────────────┐
+│ Machine Learning Classifiers│
+├─────────────────────────────┤
+│ Random Forest               │
+│ Logistic Regression         │
+│ KNN                         │
+└─────────────────────────────┘
+   ↓
+ASD / CONTROL
+🤖 Models Used
+🧠 SE-CNN
 
-These features are then passed to the Machine Learning classifiers.
+The Squeeze-and-Excitation CNN is used to learn important patterns from the input image and generate a 128-dimensional feature vector.
 
-🤖 Machine Learning Classification
+The model uses:
 
-The extracted CNN features are used as input to multiple Machine Learning algorithms.
-
-             SE-CNN
-                │
-                ▼
-       128-D Feature Vector
-                │
-                ▼
-      Machine Learning Models
-                │
-      ┌─────────┼─────────┐
-      ▼         ▼         ▼
-Random Forest   KNN   Logistic Regression
-      │
-      ▼
- ASD / CONTROL
+Convolutional layers
+Batch Normalization
+ReLU activation
+Max Pooling
+SE Attention
+Global Average Pooling
+Dense Feature Layer
+Dropout
+Sigmoid output
 🌲 Random Forest
 
-Random Forest is used as the primary classification model.
+Random Forest is used as one of the main classification algorithms for predicting:
 
-It combines multiple decision trees to make the final classification.
-
-128-D CNN Features
-        │
-        ▼
- Random Forest
-        │
-        ▼
- ASD / CONTROL
+ASD
+CONTROL
 📈 Logistic Regression
 
-Logistic Regression is used as a Machine Learning classification model and for comparison with other classifiers.
+Logistic Regression is used as a comparative Machine Learning classifier.
 
-128-D CNN Features
-        │
-        ▼
-Logistic Regression
-        │
-        ▼
- ASD / CONTROL
-🔎 K-Nearest Neighbors
+🔍 K-Nearest Neighbors
 
-KNN is used as an additional comparative classifier.
+KNN is also evaluated as an additional classification approach.
 
-128-D CNN Features
-        │
-        ▼
-       KNN
-        │
-        ▼
- ASD / CONTROL
-📊 Model Evaluation
+📈 Model Evaluation
 
-The classification models are evaluated using standard Machine Learning metrics.
+The classifiers can be evaluated using standard classification metrics:
 
 Metric	Purpose
-Accuracy	Measures overall prediction correctness
-Precision	Measures correctness of positive predictions
-Recall	Measures the ability to identify positive samples
-F1-Score	Provides a balance between Precision and Recall
-ROC-AUC	Measures overall classification performance
-Confusion Matrix	Shows correct and incorrect predictions
-Evaluation Workflow
-Predictions
-     │
-     ▼
-Actual Labels
-     │
-     ▼
-Evaluation Metrics
-     │
- ┌───┼────┬────────┐
- ▼   ▼    ▼        ▼
-Acc Precision Recall F1
-     │
-     ▼
-ROC-AUC
-     │
-     ▼
-Confusion Matrix
+Accuracy	Overall prediction correctness
+Precision	Correctness of positive predictions
+Recall	Ability to identify positive samples
+F1-Score	Balance between Precision and Recall
+ROC-AUC	Measures classification performance
+Confusion Matrix	Shows correct and incorrect classifications
 📁 Project Structure
 Autism-Spectrum-Disorder-Detection/
 │
 ├── data/
-│   ├── dataset/
+│   ├── raw/
+│   ├── processed/
 │   └── metadata/
 │
 ├── src/
@@ -475,72 +295,74 @@ Autism-Spectrum-Disorder-Detection/
 📂 Important Files
 File	Purpose
 train.py	Main model training script
-ml_pipeline.py	CNN feature extraction and Machine Learning classification pipeline
+ml_pipeline.py	Feature extraction and ML classification pipeline
 app.py	Main Streamlit application
 app_fast.py	Faster Streamlit application
 src/abide_loader.py	Loads ABIDE dataset information
-src/download_abide.py	Handles ABIDE dataset downloading
-src/prepare_dataset.py	Prepares the dataset
-src/preprocessing.py	Performs image and neuroimaging preprocessing
+src/download_abide.py	Handles dataset downloading
+src/prepare_dataset.py	Prepares dataset for training
+src/preprocessing.py	Handles image and NIfTI preprocessing
 src/cnn_model.py	Defines the SE-CNN architecture
-src/se_block.py	Implements the Squeeze-and-Excitation attention block
-src/train_cnn.py	Handles CNN training
+src/se_block.py	Implements Squeeze-and-Excitation attention
+src/train_cnn.py	CNN training functionality
 src/feature_extraction.py	Extracts CNN feature vectors
-src/classifiers.py	Implements Machine Learning classifiers
-src/evaluate.py	Evaluates model performance
-src/predict.py	Handles prediction
-requirements.txt	Contains project dependencies
-.gitignore	Specifies files ignored by Git
-🌐 Streamlit Web Application
+src/classifiers.py	Machine Learning classifiers
+src/evaluate.py	Model evaluation
+src/predict.py	Prediction functionality
+requirements.txt	Python dependencies
+.gitignore	Git ignored files
+🌐 Application Workflow
 
-The project provides a Streamlit-based web application for interactive model prediction.
+The Streamlit application follows this workflow:
 
-Application Features
-Simple user interface
-Input image selection
-Image preprocessing
-SE-CNN feature extraction
-Machine Learning classification
-ASD / CONTROL prediction
-Prediction confidence
-Easy-to-use web interface
-🔄 Application Workflow
-                Start
-                  │
-                  ▼
-          Open Streamlit App
-                  │
-                  ▼
-             Input Image
-                  │
-                  ▼
-         Image Preprocessing
-                  │
-                  ▼
-               SE-CNN
-                  │
-                  ▼
-         Feature Extraction
-                  │
-                  ▼
-           128-D Features
-                  │
-                  ▼
-          Random Forest
-                  │
-                  ▼
+                  Start
+                    │
+                    ▼
+            Open Web Application
+                    │
+                    ▼
+              Input Image
+                    │
+                    ▼
+            Image Preprocessing
+                    │
+                    ▼
+             SE-CNN Model
+                    │
+                    ▼
+          Feature Extraction
+                    │
+                    ▼
+           Random Forest
+                    │
+                    ▼
              Prediction
-                  │
-             ┌────┴────┐
-             ▼         ▼
-            ASD      CONTROL
-             │         │
-             └────┬────┘
-                  ▼
-         Result & Confidence
+                    │
+              ┌─────┴─────┐
+              ▼           ▼
+             ASD       CONTROL
+              │           │
+              └─────┬─────┘
+                    ▼
+             Result Display
+🖥️ Streamlit Application
+
+The project includes a Streamlit-based interface for model inference.
+
+The application allows the user to:
+
+Provide an input image.
+Preprocess the image.
+Extract features using the SE-CNN.
+Pass the features to the classifier.
+Generate the predicted class.
+Display the prediction result.
+Prediction Classes
+ASD
+CONTROL
 📷 Application Screenshots
 
-Create an assets folder in the project:
+Create an assets folder in the repository and place your screenshots inside it:
 
 assets/
 ├── home.png
@@ -552,7 +374,7 @@ assets/
 
 📊 Prediction Result
 
-Replace the screenshot filenames with your actual image filenames if they are different.
+Replace the screenshot names above with your actual screenshot filenames if they are different.
 
 🚀 How to Run
 1. Clone the Repository
@@ -562,140 +384,102 @@ cd Autism-Spectrum-Disorder-Detection
 Windows
 python -m venv .venv
 
-Activate the environment:
+Activate it:
 
 .venv\Scripts\activate
 Linux / macOS
 python3 -m venv .venv
 
-Activate the environment:
+Activate it:
 
 source .venv/bin/activate
 3. Install Dependencies
 pip install -r requirements.txt
-4. Train the SE-CNN Model
+
+The project requirements include TensorFlow, NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn, NiBabel, Nilearn, OpenCV, Joblib, Requests, Streamlit and Pillow.
+
+4. Train the CNN
 python train.py
 
-This trains the SE-CNN model required for feature extraction.
+This trains the SE-CNN model.
 
-5. Run the Machine Learning Pipeline
+5. Run the ML Pipeline
 python ml_pipeline.py
 
-This performs:
+This performs feature extraction and Machine Learning classification.
 
-CNN Feature Extraction
-        ↓
-Feature Preparation
-        ↓
-Machine Learning Training
-        ↓
-Random Forest
-Logistic Regression
-KNN
-6. Start the Streamlit Application
+6. Run the Streamlit Application
 streamlit run app.py
 
-The application will normally be available at:
+Then open:
 
 http://localhost:8501
 🔄 Complete Project Workflow
-                 ABIDE Dataset
-                       │
-                       ▼
-                Data Collection
-                       │
-                       ▼
-               Data Preparation
-                       │
-                       ▼
-          Neuroimaging Preprocessing
-                       │
-                       ▼
-               Image Processing
-                       │
-                       ▼
-                    SE-CNN
-                       │
-                       ▼
-              Feature Extraction
-                       │
-                       ▼
-               128-D Features
-                       │
-                       ▼
-          Machine Learning Models
-                       │
-              ┌────────┼────────┐
-              ▼        ▼        ▼
-         Random Forest KNN   Logistic Regression
-              │
-              ▼
-          ASD / CONTROL
-              │
-              ▼
-         Streamlit Application
-              │
-              ▼
-        Prediction Result
-📌 Expected Output
-
-The system classifies the input into one of the following categories:
-
-ASD
-
-or
-
-CONTROL
-
-The Streamlit application displays the prediction result along with the corresponding model confidence where available.
-
+ABIDE Neuroimaging Dataset
+            │
+            ▼
+       Data Selection
+            │
+            ▼
+     Data Preprocessing
+            │
+            ▼
+      Image Processing
+            │
+            ▼
+         SE-CNN
+            │
+            ▼
+   128-D Feature Vector
+            │
+            ▼
+   Machine Learning Models
+            │
+      ┌─────┼─────┐
+      ▼     ▼     ▼
+     RF     LR    KNN
+      │
+      ▼
+ ASD / CONTROL
+      │
+      ▼
+ Streamlit App
 🔮 Future Improvements
-
-The following improvements can be added to make the system more robust and production-ready:
-
-🧠 3D CNN for complete brain-volume analysis
-🎯 Advanced attention mechanisms
-🔄 Transfer Learning
-🔍 Grad-CAM visualization
-🧩 SHAP-based explainability
-⚙️ Hyperparameter optimization
-📊 Larger and more diverse neuroimaging datasets
-🚀 FastAPI-based prediction API
-🐳 Docker containerization
-☁️ AWS cloud deployment
-🔄 CI/CD pipeline
-📈 MLflow experiment tracking
-🔍 Model monitoring
-📊 Real-time model performance monitoring
+3D CNN for complete brain volumes
+Advanced attention mechanisms
+Transfer learning
+Grad-CAM and SHAP explainability
+Hyperparameter optimization
+Larger and more diverse datasets
+FastAPI prediction API
+Docker containerization
+AWS cloud deployment
+CI/CD pipeline
+MLflow model tracking
+Model monitoring
 ⚠️ Limitations
-The performance of the model depends on the quality and size of the dataset.
-Neuroimaging data requires considerable preprocessing and computational resources.
-Model performance may vary when applied to datasets from different sources.
-The current system has not been clinically validated.
-The model should not be used as a standalone diagnostic system.
-Prediction results may not generalize to every individual or population.
+Model performance depends on the quality and size of the dataset.
+Neuroimaging data requires significant preprocessing and computational resources.
+Predictions may not generalize to unseen populations or different datasets.
+The system has not been clinically validated.
+A machine learning prediction should not be treated as a medical diagnosis.
 🩺 Disclaimer
 
-This project is developed for educational and research purposes only.
+This project is intended for educational and research purposes only.
 
-The predictions generated by this system should not be considered medical advice or a clinical diagnosis.
+The predictions generated by this system should not be considered a medical diagnosis or medical advice.
 
-This system is not intended to replace professional medical evaluation, diagnosis, or consultation with qualified healthcare professionals.
+The system should not replace professional medical evaluation, clinical assessment, or consultation with qualified healthcare professionals.
 
 👨‍💻 Author
+
 Mahalaxmi Kouchika
 
 Computer Science Engineering Student
 
-Areas of Interest
-Machine Learning
-Deep Learning
-Artificial Intelligence
-MLOps
-Cloud Computing
-DevOps
+Interests:
+Machine Learning • Deep Learning • Artificial Intelligence • MLOps • Cloud Computing • DevOps
+
 ⭐ Support
 
-If you found this project useful or interesting, please consider giving the repository a ⭐ on GitHub.
-
-Your support helps improve and extend the project.
+If you found this project useful, consider giving the repository a ⭐ on GitHub.
