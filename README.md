@@ -520,30 +520,10 @@ It should not replace professional medical evaluation or consultation with a qua
 
 ### **Mahalaxmi Kouchika**
 
-**Autism Spectrum Disorder Detection System**
-
----
+**Computer Science Engineering | Machine Learning | MLOps | DevOps**
 
 ## ⭐ Support
 
-If you find this project useful, please support it by:
+If you find this project useful, please ⭐ **star the repository** and share your feedback.
 
-* ⭐ **Starring the repository**
-* 🍴 **Forking the project**
-* 🐛 **Reporting issues**
-* 💡 **Sharing feedback**
-
-### 🔗 Repository
-
-**GitHub:**
-https://github.com/MahalaxmiKouchika/Autism-Spectrum-Disorder-Detection
-
----
-
-<p align="center">
-  <strong>🧠 Autism Spectrum Disorder Detection using AI</strong>
-</p>
-
-<p align="center">
-  Built with Python • TensorFlow • Scikit-learn • SE-CNN • Streamlit
-</p>
+Your support is appreciated!
